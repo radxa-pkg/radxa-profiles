@@ -545,6 +545,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttymsm0,
+         radxa-system-config-aic8800-usb-dkms,
          ${misc:Depends},
 Recommends: task-qcs6490,
 Description: Metapackages for Dragon Q6A
