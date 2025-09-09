@@ -610,6 +610,18 @@ Description: Metapackages for Radxa Cubie A7A
  This package provides prebuilt packages from Allwinner that
  provides a more optimized user experience.
 
+Package: task-radxa-cubie-a7s
+Architecture: all
+Priority: optional
+Depends: radxa-system-config,
+         radxa-system-config-kernel-cmdline-ttyas0,
+         radxa-system-config-aic8800-usb-dkms,
+         ${misc:Depends},
+Recommends: task-a733,
+Description: Metapackages for Radxa Cubie A7S
+ This package provides prebuilt packages from Allwinner that
+ provides a more optimized user experience.
+
 Package: task-radxa-cubie-a7z
 Architecture: all
 Priority: optional
