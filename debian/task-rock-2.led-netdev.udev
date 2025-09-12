@@ -1,2 +1,12 @@
-SUBSYSTEM=="leds", KERNEL=="wan-led", ACTION=="add", ATTR{trigger}="netdev", ATTR{device_name}="enp1s0", ATTR{link}="1", ATTR{tx}="1", ATTR{rx}="1"
-SUBSYSTEM=="leds", KERNEL=="lan-led", ACTION=="add", ATTR{trigger}="netdev", ATTR{device_name}="eth0", ATTR{link}="1", ATTR{tx}="1", ATTR{rx}="1"
+# E20C/E24C WAN-LED Selection
+SUBSYSTEM=="leds", KERNEL=="wan-led", ACTION=="add", ATTR{trigger}="netdev", ATTR{link}="1", ATTR{tx}="1", ATTR{rx}="1", RUN+="/usr/libexec/radxa-profiles/set_wan_led.sh %k"
+
+# E20C LAN_LED
+# Eth0 applies to kernel version 5.10
+# SUBSYSTEM=="leds", KERNEL=="lan-led", ACTION=="add", ATTR{trigger}="netdev", ATTR{device_name}="eth0", ATTR{link}="1", ATTR{tx}="1", ATTR{rx}="1"
+SUBSYSTEM=="leds", KERNEL=="lan-led", ACTION=="add", ATTR{trigger}="netdev", ATTR{device_name}="end1", ATTR{link}="1", ATTR{tx}="1", ATTR{rx}="1"
+
+# E24C LAN_LED
+SUBSYSTEM=="leds", KERNEL=="lan1-led", ACTION=="add", ATTR{trigger}="netdev", ATTR{device_name}="lan1", ATTR{link}="1", ATTR{tx}="1", ATTR{rx}="1"
+SUBSYSTEM=="leds", KERNEL=="lan2-led", ACTION=="add", ATTR{trigger}="netdev", ATTR{device_name}="lan2", ATTR{link}="1", ATTR{tx}="1", ATTR{rx}="1"
+SUBSYSTEM=="leds", KERNEL=="lan3-led", ACTION=="add", ATTR{trigger}="netdev", ATTR{device_name}="lan3", ATTR{link}="1", ATTR{tx}="1", ATTR{rx}="1"
