@@ -211,7 +211,7 @@ Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          radxa-system-config-r8125-dkms,
-         8852be-dkms,
+         rtw89-dkms,
          rtl8852bu-dkms,
          radxa-system-config-rtk-btusb-dkms,
          ${misc:Depends},
@@ -225,7 +225,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         8852be-dkms,
+         rtw89-dkms,
          rtl8852bu-dkms,
          radxa-system-config-rtk-btusb-dkms,
          ${misc:Depends},
