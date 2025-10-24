@@ -631,3 +631,15 @@ Recommends: task-a733,
 Description: Metapackages for Radxa Cubie A7Z
  This package provides prebuilt packages from Allwinner that
  provides a more optimized user experience.
+
+Package: task-radxa-a733
+Architecture: all
+Priority: optional
+Depends: radxa-system-config,
+         radxa-system-config-kernel-cmdline-ttyas0,
+         radxa-system-config-aic8800-usb-dkms,
+         ${misc:Depends},
+Recommends: task-a733,
+Description: Metapackages for generic a733 image
+ This package provides prebuilt packages from Allwinner that
+ provides a more optimized user experience.
