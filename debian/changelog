@@ -1,3 +1,15 @@
+radxa-profiles (0.4.38) noble; urgency=medium
+
+  [ Honglin Leng ]
+  * fix: remove unuseless 8852be-dkms
+  * feat: add infineon wifi driver for radxa-cm3-io
+  * feat: chore: remove unnecessary rkwifibt-firmware dependency
+
+  [ Feng Zhang ]
+  * feat: add meta-packages for generic a733 image
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 27 Oct 2025 02:10:56 +0000
+
 radxa-profiles (0.4.37) noble; urgency=medium
 
   [ ZHANG Yuntian ]
