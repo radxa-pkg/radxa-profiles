@@ -558,6 +558,17 @@ Description: Metapackages for Dragon Q6A
  This package provides prebuilt packages from Qualcomm that
  provides a more optimized user experience.
 
+Package: task-radxa-airbox-q900
+Architecture: all
+Priority: optional
+Depends: radxa-system-config,
+         radxa-system-config-kernel-cmdline-ttymsm0,
+         ${misc:Depends},
+Recommends: task-qcs9075,
+Description: Metapackages for AIRbox Q900
+ This package provides prebuilt packages from Qualcomm that
+ provides a more optimized user experience.
+
 Package: task-radxa-rk3528
 Architecture: all
 Priority: optional
