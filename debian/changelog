@@ -1,3 +1,13 @@
+radxa-profiles (0.4.39) noble; urgency=medium
+
+  [ dependabot[bot] ]
+  * chore(deps): bump actions/download-artifact from 5 to 6
+
+  [ chongbiao Chen ]
+  * feat: add task-radxa-airbox-q900
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 06 Nov 2025 09:24:56 +0000
+
 radxa-profiles (0.4.38) noble; urgency=medium
 
   [ Honglin Leng ]
