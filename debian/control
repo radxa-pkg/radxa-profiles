@@ -84,7 +84,6 @@ Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          radxa-system-config-r8125-dkms,
-         rkwifibt-bcmdhd-dkms,
          ${misc:Depends},
 Recommends: task-rk3399,
 Description: Metapackages for ROCK Pi 4B
@@ -97,7 +96,6 @@ Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          radxa-system-config-r8125-dkms,
-         rkwifibt-infineon-dkms,
          ${misc:Depends},
 Recommends: task-rk3399,
 Description: Metapackages for ROCK Pi 4C
@@ -122,7 +120,6 @@ Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          radxa-system-config-r8125-dkms,
-         rkwifibt-bcmdhd-dkms,
          ${misc:Depends},
 Recommends: task-rk3399,
 Description: Metapackages for ROCK Pi 4B+
@@ -135,7 +132,6 @@ Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          radxa-system-config-r8125-dkms,
-         rkwifibt-infineon-dkms,
          ${misc:Depends},
 Recommends: task-rk3399,
 Description: Metapackages for ROCK 4C+
@@ -148,7 +144,6 @@ Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          radxa-system-config-r8125-dkms,
-         rkwifibt-infineon-dkms,
          ${misc:Depends},
 Recommends: task-rk3399,
 Description: Metapackages for ROCK 4SE
@@ -289,7 +284,6 @@ Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          radxa-system-config-r8125-dkms,
-         rkwifibt-infineon-dkms,
          ${misc:Depends},
 Recommends: task-rk356x,
 Description: Metapackages for Radxa CM3 IO Baseboard
