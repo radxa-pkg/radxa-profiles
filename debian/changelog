@@ -1,3 +1,10 @@
+radxa-profiles (0.4.40) noble; urgency=medium
+
+  [ Jiali Chen ]
+  * fix: deprecate rkwifibt
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 27 Nov 2025 08:34:32 +0000
+
 radxa-profiles (0.4.39) noble; urgency=medium
 
   [ dependabot[bot] ]
