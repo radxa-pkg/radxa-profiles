@@ -540,6 +540,19 @@ Description: Metapackages for Orion O6
  This package provides prebuilt packages from CIX that
  provides a more optimized user experience.
 
+Package: task-radxa-orion-cix-p1
+Architecture: all
+Priority: optional
+Depends: radxa-system-config,
+         radxa-system-config-kernel-cmdline-ttyama0,
+         r8126-dkms,
+         rtw89-dkms,
+         ${misc:Depends},
+Recommends: task-cd8180,
+Description: Metapackages for generic CIX P1 image
+ This package provides prebuilt packages from CIX that
+ provides a more optimized user experience.
+
 Package: task-radxa-dragon-q6a
 Architecture: all
 Priority: optional
@@ -645,6 +658,6 @@ Depends: radxa-system-config,
          radxa-system-config-aic8800-usb-dkms,
          ${misc:Depends},
 Recommends: task-a733,
-Description: Metapackages for generic a733 image
+Description: Metapackages for generic A733 image
  This package provides prebuilt packages from Allwinner that
  provides a more optimized user experience.
