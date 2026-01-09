@@ -14,7 +14,7 @@ Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyaml0,
          ${misc:Depends},
-Recommends: task-amlogic,
+Recommends: task-s905y2,
 Description: Metapackages for Radxa ZERO
  This package provides prebuilt packages from Amlogic that
  provides a more optimized user experience.
@@ -26,7 +26,7 @@ Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyaml0,
          rsetup-config-thermal-governor-step-wise,
          ${misc:Depends},
-Recommends: task-amlogic,
+Recommends: task-a311d,
 Description: Metapackages for Radxa ZERO 2 PRO
  This package provides prebuilt packages from Amlogic that
  provides a more optimized user experience.
