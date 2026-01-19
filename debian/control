@@ -533,7 +533,6 @@ Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyama0,
          r8126-dkms,
-         rtw89-dkms,
          ${misc:Depends},
 Recommends: task-cd8180,
 Description: Metapackages for Orion O6
@@ -546,7 +545,6 @@ Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyama0,
          r8126-dkms,
-         rtw89-dkms,
          ${misc:Depends},
 Recommends: task-cd8180,
 Description: Metapackages for generic CIX P1 image
