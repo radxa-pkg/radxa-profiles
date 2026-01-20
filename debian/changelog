@@ -1,3 +1,16 @@
+radxa-profiles (0.4.42) noble; urgency=medium
+
+  [ CodeChenL ]
+  * feat: add pkg.conf.template
+
+  [ ZHANG Yuntian ]
+  * fix: update Amlogic products to depend on SoC package
+
+  [ Chongbiao Chen ]
+  * delete: Drop rtw89-dkms dependency
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 20 Jan 2026 02:59:06 +0000
+
 radxa-profiles (0.4.41) noble; urgency=medium
 
   [ ZHANG Yuntian ]
