@@ -24,7 +24,6 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyaml0,
-         rsetup-config-thermal-governor-step-wise,
          ${misc:Depends},
 Recommends: task-a311d,
 Description: Metapackages for Radxa ZERO 2 PRO
