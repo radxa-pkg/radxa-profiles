@@ -550,6 +550,20 @@ Description: Metapackages for generic CIX P1 image
  This package provides prebuilt packages from CIX that
  provides a more optimized user experience.
 
+Package: task-radxa-dragon-midstream
+Architecture: all
+Priority: optional
+Depends: radxa-system-config,
+         radxa-system-config-kernel-cmdline-ttymsm0,
+         radxa-system-config-aic8800-usb-dkms,
+         tc956x-dkms,
+         ${misc:Depends},
+Recommends: task-qcs6490,
+            task-sc8280xp,
+Description: Metapackages for Radxa Dragon midstream products
+ This package provides prebuilt packages from Qualcomm that
+ provides a more optimized user experience.
+
 Package: task-radxa-dragon-q6a
 Architecture: all
 Priority: optional
