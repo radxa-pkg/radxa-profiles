@@ -1,3 +1,13 @@
+radxa-profiles (0.4.44) noble; urgency=medium
+
+  [ Chongbiao Chen ]
+  * feat: add radxa-dragon-qcs9075 packages
+
+  [ ZHANG Yuntian ]
+  * feat: add task-radxa-dragon-midstream
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 07 Apr 2026 09:28:42 +0000
+
 radxa-profiles (0.4.43) noble; urgency=medium
 
   [ Jiali Chen ]
