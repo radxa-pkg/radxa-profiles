@@ -1,3 +1,10 @@
+radxa-profiles (0.4.45) noble; urgency=medium
+
+  [ Zhaoming Luo ]
+  * fix: remove 8852be-dkms dependency of CM3J
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 22 Apr 2026 06:59:29 +0000
+
 radxa-profiles (0.4.44) noble; urgency=medium
 
   [ Chongbiao Chen ]
