@@ -1,3 +1,13 @@
+radxa-profiles (0.4.46) noble; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Add 'resolute' and 'resolute-test' to pkg.conf.template
+
+  [ Stephen Chen ]
+  * feat: task-radxa-dragon-midstream: remove tc956x-dkms
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 14 May 2026 07:00:24 +0000
+
 radxa-profiles (0.4.45) noble; urgency=medium
 
   [ Zhaoming Luo ]
