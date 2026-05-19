@@ -556,6 +556,7 @@ Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttymsm0,
          radxa-system-config-aic8800-usb-dkms,
+         radxa-system-config-rtc-is-ds1371,
          ${misc:Depends},
 Recommends: task-qcs6490,
             task-sc8280xp,
