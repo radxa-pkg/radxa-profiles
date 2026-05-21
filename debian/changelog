@@ -1,3 +1,10 @@
+radxa-profiles (0.4.47) noble; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * feat: change default RTC on task-radxa-dragon-midstream
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 21 May 2026 11:58:03 +0000
+
 radxa-profiles (0.4.46) noble; urgency=medium
 
   [ ZHANG Yuntian ]
