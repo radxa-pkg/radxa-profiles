@@ -1,3 +1,11 @@
+radxa-profiles (0.4.48) noble; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * fix: unload TC956X driver before shutdown
+  * Revert "fix: unload TC956X driver before shutdown"
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 05 Jun 2026 08:38:11 +0000
+
 radxa-profiles (0.4.47) noble; urgency=medium
 
   [ ZHANG Yuntian ]
