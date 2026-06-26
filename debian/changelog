@@ -1,3 +1,10 @@
+radxa-profiles (0.4.49) noble; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * fix: add rsetup-config-thermal-governor-step-wise dependency
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 26 Jun 2026 11:29:32 +0000
+
 radxa-profiles (0.4.48) noble; urgency=medium
 
   [ ZHANG Yuntian ]
