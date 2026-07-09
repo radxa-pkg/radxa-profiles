@@ -543,6 +543,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyama0,
+         r8125-dkms,
          r8126-dkms,
          ${misc:Depends},
 Recommends: task-cd8180,
