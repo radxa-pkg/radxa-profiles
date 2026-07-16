@@ -1,3 +1,11 @@
+radxa-profiles (0.4.50) noble; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * fix: add r8125-dkms to task-radxa-orion-cix-p1
+  * Revert "feat: change default RTC on task-radxa-dragon-midstream"
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 16 Jul 2026 02:59:51 +0000
+
 radxa-profiles (0.4.49) noble; urgency=medium
 
   [ ZHANG Yuntian ]
