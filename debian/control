@@ -35,7 +35,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         rtl8723ds-dkms,
+         rtw88-dkms,
          ${misc:Depends},
 Recommends: task-rk3308,
 Description: Metapackages for ROCK Pi S
