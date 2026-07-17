@@ -34,7 +34,7 @@ Package: task-rock-pi-s
 Architecture: all
 Priority: optional
 Depends: radxa-system-config,
-         radxa-system-config-kernel-cmdline-ttys0,
+         radxa-system-config-kernel-cmdline-ttyfiq0,
          rtl8723ds-dkms,
          ${misc:Depends},
 Recommends: task-rk3308,
