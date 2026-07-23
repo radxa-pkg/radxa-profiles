@@ -1,3 +1,11 @@
+radxa-profiles (0.4.51) noble; urgency=medium
+
+  [ Xinming Chen ]
+  * fix: change rock-pi-s debug to ttyfiq0
+  * fix: replace rtl8723ds-dkms dependency with rtw88-dkms on rock-pi-s
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 23 Jul 2026 08:36:36 +0000
+
 radxa-profiles (0.4.50) noble; urgency=medium
 
   [ ZHANG Yuntian ]
