@@ -46,7 +46,7 @@ Package: task-rock-s0
 Architecture: all
 Priority: optional
 Depends: radxa-system-config,
-         radxa-system-config-kernel-cmdline-ttys0,
+         radxa-system-config-kernel-cmdline-ttyfiq0,
          ${misc:Depends},
 Recommends: task-rk3308,
 Description: Metapackages for ROCK S0
