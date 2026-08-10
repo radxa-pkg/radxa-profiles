@@ -624,6 +624,18 @@ Description: Metapackages for generic RK3576 image
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
+Package: task-radxa-rcore-rk3308-io
+Architecture: all
+Priority: optional
+Depends: radxa-system-config,
+         radxa-system-config-kernel-cmdline-ttyfiq0,
+         rtw88-dkms,
+         ${misc:Depends},
+Recommends: task-rk3308,
+Description: Metapackages for Radxa rCore-RK3308 IO
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
 Package: task-radxa-cubie-a5e
 Architecture: all
 Priority: optional
