@@ -1,3 +1,11 @@
+radxa-profiles (0.4.52) noble; urgency=medium
+
+  [ Xinming Chen ]
+  * fix: change rock-s0 debug to ttyfiq0
+  * feat: add task-radxa-rcore-rk3308-io
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 17 Aug 2026 08:24:06 +0000
+
 radxa-profiles (0.4.51) noble; urgency=medium
 
   [ Xinming Chen ]
