@@ -593,6 +593,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttymsm0,
+         rsetup-config-thermal-governor-step-wise,
          ${misc:Depends},
 Recommends: task-qcs9075,
 Description: Metapackages for Dragon QCS9075
