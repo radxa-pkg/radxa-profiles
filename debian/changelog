@@ -1,3 +1,10 @@
+radxa-profiles (0.4.53) noble; urgency=medium
+
+  [ Stephen Chen ]
+  * fix: radxa-dragon-qcs9075: Add rsetup-config-thermal-governor-step-wise
+
+ -- "Radxa Computer (Shenzhen) Co., Ltd." <dev@radxa.com>  Wed, 14 Oct 2026 02:31:32 +0000
+
 radxa-profiles (0.4.52) noble; urgency=medium
 
   [ Xinming Chen ]
